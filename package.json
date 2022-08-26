@@ -1,7 +1,6 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "",
   "main": "y",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +9,19 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.19",
     "uuid": "^8.3.2"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermyjr/desafioNode.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ermyjr/desafioNode/issues"
+  },
+  "homepage": "https://github.com/ermyjr/desafioNode#readme",
+  "description": ""
 }
