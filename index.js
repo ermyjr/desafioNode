@@ -44,7 +44,8 @@ app.post('/orders', requests, (request, response) => {
 
     const clientId = { id: uuid.v4(), order, clientName, price, status }
 
-    order.push(clientId)
+    orders.push(clientId)
+
     return response.status(201).json(clientId)
 })
 
